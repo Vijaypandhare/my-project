@@ -1,0 +1,128 @@
+import React from "react";
+import  Style  from "./footer.module.css";
+import Link from "next/link";
+const Footer = () => {
+    return (
+      <>
+        <footer>
+          <div className="container">
+              <div className="footermenudivmain">
+                <div className="row">
+                  <div className="col-lg-10">
+                    <div className="footermenu">
+                      <div className="row">
+                        <div className="col-lg-3">
+                          <div className="headingfooter">
+                          ABOUT US
+                          </div>
+                          <ul className="footerlink">
+                            <li><Link href="/">About Name&Shame</Link></li>
+                            <li><Link href="/">Press & Media</Link></li>
+                            <li><Link href="/">Legal Policies</Link></li>
+                            <li><Link href="/">Contact Us</Link></li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-3">
+                          <div className="headingfooter">
+                             FOR CONSUMERS
+                          </div>
+                          <ul className="footerlink">
+                            <li><Link href="/">How It Works</Link></li>
+                            <li><Link href="/">Checks & Balances</Link></li>
+                            <li><Link href="/">FAQ for Consumers</Link></li>
+                            <li><Link href="/">Support Us</Link></li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-3">
+                          <div className="headingfooter">
+                             BUSINESS SOLUTION
+                          </div>
+                          <ul className="footerlink">
+                            <li><Link href="/">How It Works</Link></li>
+                            <li><Link href="/">Ethics & Guidlines</Link></li>
+                            <li><Link href="/">FAQ for Business</Link></li>
+                            <li><Link href="/">Claim Your Profile</Link></li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-3">
+                          <div className="headingfooter">
+                             OUR BLOG
+                          </div>
+                          <ul className="footerlink">
+                            <li><Link href="/">Latest Articles</Link></li>
+                            <li><Link href="/">News & Updates</Link></li>
+                            <li><Link href="/">Scam Alerts</Link></li>
+                            <li><Link href="/">Transparency Reports</Link></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-2">
+                    <div className="socialmediafooter">
+                      <div className="headingfooter">
+                          CONNECT
+                        </div>
+                      <ul>
+                        <li>
+                          <Link href="/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fillRule="evenodd" clipRule="evenodd" d="M0 12.0098C0 5.38241 5.37265 0.00976562 12 0.00976562C18.6274 0.00976562 24 5.38241 24 12.0098C24 18.6371 18.6274 24.0098 12 24.0098C5.37265 24.0098 0 18.6371 0 12.0098ZM17.6408 9.68217V10.0551C17.6408 13.7839 14.9817 18.0098 10.0773 18.0098C8.54097 18.0098 7.18195 17.5748 6 16.7669C6.23631 16.829 6.41359 16.829 6.6499 16.829C7.89087 16.829 9.07261 16.394 9.95903 15.6482C8.77728 15.6482 7.83185 14.8403 7.47728 13.7216C7.59554 13.7837 7.77282 13.7837 7.9501 13.7837C8.18641 13.7837 8.42272 13.7216 8.65923 13.6593C7.41826 13.4108 6.53205 12.2921 6.53205 10.9248V10.8627C6.88662 11.1113 7.30021 11.2356 7.7138 11.2356C7.00467 10.7384 6.53205 9.93048 6.53205 8.93614C6.53205 8.37679 6.65031 7.94181 6.88662 7.50682C8.24564 9.18467 10.1957 10.3034 12.382 10.4278C12.3229 10.2413 12.3229 10.0549 12.3229 9.80632C12.3229 8.25263 13.5047 7.00977 14.9819 7.00977C15.7501 7.00977 16.4592 7.32059 16.9318 7.87973C17.5817 7.75535 18.1136 7.50682 18.6454 7.19622C18.4091 7.87973 17.9955 8.37701 17.4637 8.74991C17.9955 8.68783 18.5274 8.56346 19 8.31493C18.6454 8.87428 18.2316 9.37134 17.6408 9.68217Z" fill="white"/>
+                            </svg>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M0 12.0098C0 5.38241 5.37265 0.00976562 12 0.00976562C18.6274 0.00976562 24 5.38241 24 12.0098C24 18.6371 18.6274 24.0098 12 24.0098C5.37265 24.0098 0 18.6371 0 12.0098ZM14.9972 7.46321H13.389C13.0505 7.44275 12.7013 7.68396 12.6394 7.99996C12.6339 8.41021 12.6346 8.82033 12.6353 9.23051C12.6355 9.36723 12.6358 9.50396 12.6358 9.64071C13.0287 9.64241 13.4217 9.64241 13.8147 9.64241C14.2077 9.64241 14.6008 9.64241 14.9938 9.64411C14.9356 10.4355 14.8302 11.2237 14.7064 12.0051C14.3093 12.009 13.9121 12.0084 13.515 12.0079C13.2171 12.0074 12.9192 12.007 12.6214 12.0085C12.6177 13.1754 12.6186 14.3414 12.6196 15.5074C12.6205 16.6734 12.6214 17.8394 12.6177 19.0064C12.1747 19.0078 11.7325 19.0074 11.2903 19.007C10.7009 19.0064 10.1116 19.0059 9.52106 19.0098C9.51091 17.7133 9.51204 16.4168 9.51317 15.1202C9.51407 14.083 9.51497 13.0458 9.5101 12.0085C9.29492 12.007 9.07907 12.0074 8.86312 12.0079C8.57513 12.0084 8.28697 12.009 8 12.0051C8.00244 11.4816 8.00162 10.9583 8.00081 10.4359C8.00041 10.1751 8 9.91456 8 9.65434C8.28697 9.65045 8.57514 9.651 8.86314 9.65156C9.07908 9.65198 9.29493 9.65239 9.5101 9.65093C9.51636 9.32484 9.51457 8.99813 9.51279 8.67132C9.5104 8.23553 9.50802 7.79959 9.52471 7.36476C9.57926 6.75662 9.82303 6.1487 10.3072 5.73084C10.8931 5.21113 11.7225 5.03448 12.5086 5.01403C13.1309 5.00891 13.7531 5.00955 14.3753 5.01019C14.5827 5.01041 14.7901 5.01062 14.9975 5.01062C15.0009 5.82928 15.0009 6.64454 14.9972 7.46321Z" fill="white"/>
+                            </svg>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12 24.0098C18.6274 24.0098 24 18.6372 24 12.0098C24 5.38235 18.6274 0.00976562 12 0.00976562C5.37258 0.00976562 0 5.38235 0 12.0098C0 18.6372 5.37258 24.0098 12 24.0098ZM6 16.0119L7.45515 14.2609V8.87596L6.16944 7.43559V7.20964H9.65781L12.3289 12.7546L14.7209 7.20964H18V7.43559L16.9435 8.36759V15.0517L18 16.0119V16.2096H13.2458V16.0119L14.3322 15.0517V9.74207L11.6811 16.2096H11.2425L8.14286 9.74207V14.2609L9.58804 16.0119V16.2096H6V16.0119Z" fill="white"/>
+                            </svg>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12 24.0098C18.6274 24.0098 24 18.6372 24 12.0098C24 5.38235 18.6274 0.00976562 12 0.00976562C5.37258 0.00976562 0 5.38235 0 12.0098C0 18.6372 5.37258 24.0098 12 24.0098ZM18.968 9.99235H13.6403L12.0003 5.03366L10.3506 9.99235L5.02293 9.98285L9.33162 13.0512L7.6819 18.0098L11.9906 14.9415L16.2993 18.0098L14.6656 13.0703L15.0281 14.172L12.0003 14.9415L14.6593 13.0511L14.6593 13.0511L18.968 9.99235Z" fill="white"/>
+                            </svg>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12 24.0098C18.6274 24.0098 24 18.6372 24 12.0098C24 5.38235 18.6274 0.00976562 12 0.00976562C5.37258 0.00976562 0 5.38235 0 12.0098C0 18.6372 5.37258 24.0098 12 24.0098ZM16.1919 15.124C16.7923 14.2349 17.1429 13.1633 17.1429 12.0098C17.1429 8.93275 14.6484 6.43834 11.5714 6.43834C8.49441 6.43834 6 8.93275 6 12.0098C6 15.0868 8.49441 17.5812 11.5714 17.5812L11.6112 17.5811H19L16.1919 15.124ZM11.5714 8.29548L12.7722 10.3571L15.1039 10.862L13.5143 12.641L13.7546 15.0147L11.5714 14.0526L9.38823 15.0147L9.62856 12.641L8.03893 10.862L10.3707 10.3571L11.5714 8.29548Z" fill="white"/>
+                            </svg>
+
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bottomfooer">
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="logimgdiv">
+                      <img src="../images/Name&Shame-footerlogo.png" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <p>All Rights Reserved, — NameandSham.com Copyright 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </footer>
+      </>
+    
+    );
+  };
+  
+  export default Footer;
+  

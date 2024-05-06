@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif !important;
+}
+
+.imgdiv img{
+    width: 100%;
+}
+header{
+    position: relative;
+}
+.mainheading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #101828;
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading{
+    color: #101828;
+    font-size: 30px;
+}
+.btn.repor {
+    background: #E91414;
+    padding: 9px;
+    width: 172px;
+    text-align: center;
+    color: #FFF;
+    border-radius: unset;
+}
+input[type="submit"]:hover, .btn.repor:hover {
+    background-color: transparent;
+    border: 1px solid #E91414;
+    color: #E91414;
+
+}
+.btn.repor:focus,
+.btn.audit:focus{
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+.btn.audit {
+    border: 1px solid #E91414;
+    color: #E91414;
+    width: 100%;
+    max-width:170px;
+    display: block;
+    transition: 0.5s;
+    padding: 11px;
+    border-radius: unset;
+}
+.btn.audit:hover {
+    background: #E91414;
+    color: #FFf;
+}
+footer{
+    background-color: #27282B;
+    padding: 50px 0;
+}
+.headingfooter {
+    font-size: 14px;
+    color: #9F9F9F;
+}
+.footerlink{
+    padding: 0;
+    list-style-type: none;
+    padding-top: 20px;
+}
+.footerlink li a{
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.footerlink li {
+    margin-bottom: 5px;
+}
+.socialmediafooter ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    gap: 15px;
+    padding-top: 20px;
+}
+.footermenudivmain{
+    border-bottom: 1px solid #ffffff3b ;
+    padding-bottom: 30px;
+}
+.logimgdiv img{
+    max-width: 170px;
+}
+.bottomfooer {
+    padding-top: 30px;
+}
+.bottomfooer p{
+    color: #636363;
+    font-size: 14px;
+    text-align: end;
+}
+@media(max-width:1024px){
+    .socialmediafooter {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .socialmediafooter ul{
+        justify-content: center;
+    }
+    .bottomfooer {
+        text-align: center;
+    }
+    .bottomfooer p{
+        font-size: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+@media(max-width:800px){
+    .mainheading{
+        font-size: 30px;
+        text-align: left;
+    }
+    .col-lg-5.mt-lg-0.mt-2{
+        order: 1;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,862 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.herobanner{
+    padding-top: 70px;
+}
+.sticky .formendorse {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust z-index as needed */
+  }
+.customrow{
+    position: relative;
+}  
+.copany_info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+    gap: 15px;
+    margin: 0;
+}
+.customrow{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.firstsidebar{
+    width: 100%;
+    max-width: calc(100% - 81%);
+}
+.medialcolum{
+    width: 100%;
+    max-width: calc(100% - 52%);
+}
+.lastsidebar{
+    width: 100%;
+    max-width: calc(100% - 75%);
+}
+@media(max-width:1400px){
+    .firstsidebar{
+        width: 100%;
+        max-width: calc(100% - 80%);
+    }
+    .medialcolum{
+        width: 100%;
+        max-width: calc(100% - 52%);
+    }
+    .lastsidebar{
+        width: 100%;
+        max-width: calc(100% - 71%);
+    }
+}
+@media(max-width:1200px){
+    .firstsidebar{
+        width: 100%;
+        max-width: 100%
+    }
+    .medialcolum{
+        width: 100%;
+        max-width: 100%
+    }
+    .lastsidebar{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.copany_info .imgdiv img{
+    max-width: 50px;
+    width: 100%;
+}
+.copany_info h3{
+    font-size: 22px;
+    font-family: "Inter", sans-serif !important;
+    color: #388BEC;
+    font-weight: 600;
+    margin: 0;
+}
+.copany_info p{
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+    color: #475467;
+}
+.conmpany_maindiv{
+    margin-top: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 10px 0 0px;
+}
+.commentdiv{
+    color: #1274E7;
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+}
+.commentdiv span{
+    padding-right: 10px;
+}
+.viewsmain .idpotition,
+.viewsmain .views{
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+}
+
+@media(max-width:1024px){
+    .idpotition{
+        text-align: end;
+    }
+    .viewsmain{
+        margin-bottom: 10px;
+    }
+    .herobanner{
+        padding-top: 40px;
+    }
+}
+@media(max-width:800px){
+    .commentdiv{
+        font-size: 12px;
+        font-family: "Inter", sans-serif !important;
+    }
+
+    .commentdiv.commmbdiv span svg{
+        width: 12px;
+    }
+    .commentdiv span svg{
+        width: 16px;
+        height: 16px;
+    }
+    .commentdiv span{
+        padding-right: 5px;
+    }
+    .conmpany_maindiv{
+        border: none;
+    }
+}
+
+/* ======== about lear capital ========= */
+.aboutlearnca{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 20px 15px;
+    text-align: center;
+    max-width: 240px;
+}
+.aboutlearnca h4{
+    font-size: 16px;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 500;
+}
+.socialmedia{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+    max-width: 144px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.conatctinfo{
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.cont_iconantext{
+    font-size: 12px;
+    font-family: "Inter", sans-serif !important;
+    color: #475467;
+}
+.aboutlearnca a{
+    text-decoration: none;
+}
+.cont_iconantext span{
+    padding-right: 7px;
+}
+
+.contact_web a:nth-child(2){
+    margin-top: 10px;
+    display: block;
+}
+.contact_web a:last-child .conatctinfo{
+    padding: 0;
+    border: none;
+    padding-top: 50px;
+}
+.margindiv{
+    margin-top: 30px;
+}
+.aboutlearnca.margindiv h4{
+    text-align: start;
+}
+.profileimg img{
+    max-width: 32px;
+    width: 100%;
+}
+.profilename{
+    font-size: 12px;
+    font-family: "Inter", sans-serif !important;
+    color: #101828;
+    text-align: start;
+}
+.authermain{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.detailscampaign{
+    padding: 0;
+}
+.authermain:last-child{
+    margin-top: 15px;
+}
+.pointviewcontent{
+    color: #101828;
+    font-size: 12px;
+    font-family: "Inter", sans-serif !important;
+    text-align: start;
+    padding-top: 20px;
+}
+.influencers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.influencersicon span{
+ padding-right: 10px;
+}
+.influencersicon{
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 400;
+}
+.count_influ{
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 700;
+}
+.compaigncontent{
+    padding-top: 30px;
+}
+.compaigncontent p{
+    color: #101828;
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 400;
+}
+.pdfdivmain{
+    background-color: #F5F5F7;
+    padding: 15px 20px;
+
+}
+.subheading {
+    font-size: 16px;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 600;
+}
+.sliderimage img{
+    max-width: 232px;
+}
+.pdfdivmain{
+    max-width: 272px;
+    min-height: 374px;
+}
+.sliderimage{
+    padding-top: 20px;
+}
+.pdfdiv a{
+    color: #667085;
+    font-size: 12px;
+    font-family: "Inter", sans-serif !important;
+    margin-top: 10px;
+    display: block;
+}
+.pdfdiv a span{
+    padding-right: 10px;
+}
+.viewmore a{
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+    color: #475467;
+    text-decoration: none;
+    text-align: center;
+
+}
+.viewmore{
+    text-align: center;
+    margin-top: 10px;
+}
+.viewmore a span{
+    padding-right: 10px;
+}
+.pdfdiv p{
+    font-size: 12px;
+    font-family: "Inter", sans-serif !important;
+    color: #667085;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+.fontweightp{
+    font-weight: 700;
+    color: #434954;
+}
+.subanon{
+    width: 100% !important;
+    max-width: 100%;
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+}
+.tipssmited{
+    font-size: 14px;
+    font-family: "Inter", sans-serif !important;
+    text-align: center;
+    padding-top: 10px;
+}
+.subtitle{
+    font-size: 28px;
+    color: #101828;
+    font-weight: 600;
+}
+.whatdoyouthink{
+    padding: 50px 0 20px;
+    border-bottom: 1px solid #EAECF0;
+}
+.whatdoyouthink p{
+    color: #434954;
+    font-size: 14px;
+    font-weight: 400;
+}
+.whatdoyouthink .redcolor{
+    color: #E71214;
+    font-size: 16px;
+}
+.colorfent{
+    color: #434954;
+}
+.recipients{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    gap: 15px;
+}
+.recipients img{
+    max-width: 40px;
+}
+.contentrecipi h5{
+    font-size: 16px;
+    color: #101828;
+    margin: 0;
+}
+.contentrecipi p{
+    color: #667085;
+    font-size: 12px;
+}
+.campaignupdate{
+    background-color: #1D1D1B;
+    padding: 30px 20px;
+    text-align: center;
+}
+.campaignupdate h3{
+    color: #FFF;
+    margin: 15px 0 20px;
+}
+.campaignupdate p{
+    color: #FFF;
+}
+.campaignupdate .recipients{
+    justify-content: center;
+    margin-top: 30px;
+}
+.campaignupdate .recipients h5{
+    color: #FFF;
+}
+.campaignupdate .recipients p{
+    text-align: start;
+    color: rgba(255, 255, 255, 0.6);
+}
+.btndiv{
+    padding: 30px 0;
+}
+.btndiv button{
+    width: 100%;
+    max-width: 100% !important;
+}
+.btndiv button{
+    color: #101828 !important;
+    border-color: #D9DCE4 !important;
+}
+.btndiv button:hover{
+    color: #FFF !important;
+    border-color: #E91414 !important;
+}
+.commentsdiv{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #EAECF0;
+    padding: 30px 0 10px;
+    max-width: 600px;
+    margin: 0 0 0 auto;
+ 
+}
+.commentscontent h4{
+    font-size: 18px;
+    color: #101828;
+}
+.commentscontent h4 span{
+    color: #667085;
+    font-size: 14px;
+}
+.commentscontent ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+.commentscontent ul li{
+    font-size: 14px;
+    color: #667085;
+}
+ .commentsdiv.bordertop{
+    border-top: 1px solid #EAECF0;
+    margin-top: 40px;
+}
+.commentscount{
+    color: #101828;
+    font-size: 16px;
+}
+.shortbyclas select{
+    border: none;
+    color: #667085;
+    appearance: none;
+    text-align: end;
+}
+.shortbyclas{
+    text-align: end;
+}
+
+.shortbyclas span{
+    padding-right: 10px;
+
+}
+.textarea,
+.shortbyclas select:focus-visible,
+.shortbyclas select:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.authorimg{
+    text-align: center;
+}
+.authorimg img{
+    max-width: 50px;
+    margin:  0 auto;
+}
+
+.commentstextbox {
+    width: 100%;
+  }
+  
+.textarea {
+width: 100%; 
+resize: vertical;
+border: none;
+color: #667085;
+padding-top: 10px;
+}
+.disabled{
+    background-color: #EABCBF !important;
+    color: #FFF !important;
+} 
+.commentstextbox button{
+    max-width: 70px;
+    margin: 0 0 0 auto;
+}
+.commentstextbox form{
+    text-align: end;
+}
+.borderbottom{
+    border-bottom: 1px solid #EAECF0;
+    padding-bottom: 30px;
+}
+.svgicondiv_comments{
+    color: #E71214;
+    padding-left: 10px;
+}
+.commentscontent ul li span{
+    padding-left: 10px;
+}
+.commentscontent ul li a{
+    text-decoration: none;
+}
+.commentsdiv.comm_view .profileimg {
+    flex: 0 0 7%;
+}
+.borderafert{
+    position: relative;
+}
+.borderafert::after{
+    content: "";
+    width: 1px;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    background: #EAECF0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.borderafert1{
+    position: relative;
+}
+.borderafert1::after{
+    content: "";
+    width: 1px;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    background: #EAECF0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.commentsdiv.comm_view{
+    border-bottom: none;
+}
+
+.formendorsediv h1{
+    color: #FFF;
+    text-align: start;
+}
+.formendorsediv h1 span{
+    font-size: 16px;
+    font-weight: 400;
+}
+.impactscore{
+    color: #FFF;
+}
+
+.impactscore span{
+ padding-left: 5px;   
+}
+.formendorsediv .btndiv button{
+    background-color: #FFF;
+    color: #E71214 !important;
+    font-size: 14px;
+ 
+}
+.formendorsediv .btndiv button span{
+    padding-right: 5px;
+}
+.formendorsediv .btndiv button:hover span svg path{
+    stroke: #FFF;
+}
+.formendorsediv .btndiv button:hover{
+    border: 1px solid #FFF !important;
+    color: #FFF !important;
+}
+.formendorsediv{
+    padding: 15px 15px 0;
+    background-color: #E71214;
+}
+.formendorsediv .btndiv{
+    padding: 0;
+}
+.formendorse{
+    max-width: 320px;
+    margin: 0 0 0 auto;
+   
+}
+.userendorse{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: #EDEFF3;
+  
+}
+.userendorse li:first-child{
+    background-image: url(../../../../public/images/bacgroundimageforli.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    height: 100%;
+    width: 100%;
+    max-width: calc(100% - 23%);
+    text-align: center;
+    padding: 11px 0;
+}
+.userendorse li:last-child{
+    color: #101828;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    max-width: calc(100% - 77%);
+    width: 100%;
+}
+.formendorse textarea,
+.formendorse input:not([type="checkbox"]) {
+    width: 100%;
+    padding: 13px;
+    background-color: #F2F4F8;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.formendorse textarea:focus,
+.formendorse input:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.formendorse textarea{
+    height: 88px;
+}
+.formendorse input::placeholder{
+    color: #667085;
+}
+.checkboxcss{
+    font-size: 12px;
+    color: #475467;
+}
+.formendorse .submitendordiv .submit.disabled{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: unset;
+    background: #BBBBBB !important;
+    margin-top: 25px;
+    border-color: transparent;
+}
+.formendorse .submitendordiv .submit{
+    border: 1px solid #E71214;
+    color: #E71214;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: unset;
+    margin-top: 25px;
+    margin-bottom: 10px
+}
+.formendorse .submitendordiv .submit:hover{
+    background-color: #E71214 !important;
+    color: #FFF;
+}
+.formendorse .recipients h5{
+    color: #388BEC;
+    font-size: 16px;
+}
+.formendorse .recipients h5 span{
+    font-size: 12px;
+    color: #101828;
+}
+.formendorse form{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 15px 15px 10px;
+    border-top: none;
+}
+.formendorse ul{
+    margin: 0;
+}
+.formendorse .recipients{
+    padding-top: 30px;
+}
+.campaignupdate h3{
+    font-size: 28px;
+}
+@media(max-width:1200px){
+    .aboutlearnca{
+        max-width: 100%;
+        margin: 30px 0;
+    }
+    .mobilformbtn{
+        border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 15px 15px 10px;
+    border-top: none;
+    }
+    .formendorse{
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .formendorsediv{
+        padding-bottom: 15px;
+    }
+    .pdfdivmain{
+        max-width: 100%;
+        margin-bottom: 20px;
+        min-height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sliderimage img{
+        max-width: 100%;
+    }
+    .copany_info h3 {
+        font-size: 18px;
+    }
+    .copany_info p{
+        margin: 0;
+    }
+    .views span{
+        padding-right: 5px;
+    }
+    .formendorse .recipients{
+        margin-bottom: 20px;
+    }
+    .subtitle{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1024px){
+    .customrow {
+       flex-direction: column-reverse;
+       padding-top: 20px;
+    }
+    .sticky .formendorse {
+        position: static;
+   
+    }
+}
+/* ======== be heard section ========== */
+.behearddiv{
+    background-image: url(../../../../public/images/beheardbackgroundimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+.behearddiv h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFF;
+
+}
+.behearddiv p{
+    font-size: 18px;
+    color: #FFF;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.beheardbtn{
+    background-color: #fff;
+    width: 100%;
+    max-width: 310px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #E71214;
+    border: none;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+@media(max-width:800px){
+    .behearddiv{
+        padding: 50px 0;
+        background-image: url(../../../../public/images/mblbacbeheard.png);
+    }
+}
+
+/* ======== Blogs section ============ */
+.blogsheading{
+    font-size: 32px;
+    color: #101828;
+}
+.blogssection{
+    padding: 50px 0;
+}
+.blogscampaigndiv img{
+    max-width: 100%;
+    width: 100%;
+}
+.promotedbysupp{
+    color: #E71214;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.promotedbysupp span{
+    padding-right: 7px;
+}
+.blogscampaigndiv h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.blogscampaigndiv p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #434954;
+    padding: 10px 0;
+}
+.progresscontainer {
+    width: 100%;
+    height: 14px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progressbar {
+    width: 100%;
+    max-width: calc(100% - 30%);
+    height: 100%;
+    background-color: #E71214;
+    transition: width 1s ease-in-out;
+    border-radius: 10px;
+}
+.blogscampaigndiv .recipients img{
+    max-width: 40px;
+    width: 100%;
+}
+.blogscampaigndiv .contentrecipi h5{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+.blogscampaigndiv .contentrecipi h5 span{
+    font-weight: 400;
+    
+}
+.blogscampaigndiv .contentrecipi p{
+    color: #667085;
+    font-size: 13px;
+    padding: 5px 0;
+}
+.blogscampaigndiv ul{
+    padding-top: 30px;
+}
+.blogscampaigndiv .campaigndivbtn{
+    max-width: 100%;
+}
+.blogscampaigndiv a{
+    text-decoration: none;
+}
+.blogscampaigndiv .campaigndivbtn span{
+    padding-right: 5px;
+    
+}
+.blogscampaigndiv .campaigndivbtn span svg{
+    margin-top: -4px;
+}
+@media(max-width:1024px){
+    .blogscampaigndiv{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1200px){
+    .sliderimage img {
+        max-width: 100%;
+    }
+}
+
