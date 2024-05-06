@@ -1,0 +1,97 @@
+.logo{
+    max-width: 141px;
+}
+.dropdownmain{
+    position: relative;
+    pointer-events: stroke;
+}
+/* CSS Module: navbar.module.css */
+
+.dropdownList {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    pointer-events: painted;
+}
+
+.dropdownmain:hover .dropdownList {
+    display: block;
+
+}
+.megamenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 424px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+.megamenu li{
+    font-size: 14px;
+    font-weight: 500;
+}
+.megamenu li a{
+    text-decoration: none;
+    color: #475467;
+}
+.megamenu .createcampaign a{
+    width: 100%;
+    max-width: 154px;
+    background-color: #E71214;
+    display: block;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    border: 1px solid #E71214;
+    font-size: 14px;
+}
+.megamenu .createcampaign a:hover{
+    background-color: #FFF;
+    border-color:  #E71214;
+    color: #E71214;
+}
+.mainnav{
+    padding: 10px 0;
+}
+.dropdownList{
+    list-style-type: none;
+}
+.icondivmenu{
+    background-color: #FFF;
+    border: none;
+}
+.icondivmenu:focus{
+    outline: none;
+    border: none;
+}
+@media(max-width:1024px){
+
+    .mobilemenu{
+        display: none;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .mobilemenu.show{
+        display: block;
+    }
+    .mobilemenu.show{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 65px;
+    }
+    .megamenu{
+        max-width: 720px;
+        flex-wrap: wrap;
+        background-color: #FFF;
+        padding-right: 10px;
+    }
+    .megamenu li{
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+}
+
